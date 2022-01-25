@@ -1,0 +1,52 @@
+
+.navbar-custom {
+    background-color:rgb(250, 202, 43);
+}
+.navbar-custom .nav-link {
+    color: #6A869C;
+}
+
+.headerContainer{
+    display:flex;
+    align-content: center;
+    
+}
+
+.headerLogo{
+   
+    height: 7vh;
+    pointer-events:none;
+}
+
+.headerContainer h2{
+  display:flex;
+  margin: 10px;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .headerLogo {
+      animation: App-logo-spin infinite 15s linear;
+    }
+  }
+
+@keyframes App-logo-spin {
+
+    from {
+     transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-25deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75%{
+      transform: rotate(25deg);
+    }
+    
+  }
+

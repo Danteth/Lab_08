@@ -1,0 +1,16 @@
+.contentsFlexImg{
+    height:25vh;
+    width:20vw;
+    display:flex;
+
+}
+.contentsFlexTxt{
+    margin: 5px;
+}
+
+.contentsFlex{
+     display:flex;
+     margin: 15px;
+ 
+}
+
